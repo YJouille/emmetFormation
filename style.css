@@ -1,13 +1,19 @@
 body {
+
 /* couleur noire background ou color, bg#0 / c#0 */
-
+    background: #000000;
+    color: #000000;
 /* pour les couleurs qui se repetent c#f4 */
+    color: #f4f4f4;
 
-
-/* pour les doubles, #fc0 */
-
+/* pour les doubles, c#fc0 */
+    color: #ffcc00;
 
 /* pour les positions, posa, posr, posf */
+    position: absolute;
+    position: relative;
+    position: fixed;
+    position: static;
 
 /* width et height
     p -> %
@@ -17,32 +23,51 @@ body {
 
 */
 /* w100p */
-
+    width: 100px;
+    width: 100%;
+    width: 100em;
+    width: 100rem;
 
 /* pour les positions, t30px */
-
+    top: 30px;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
 
 /* pour les displays, db, dib, di */
-
+    display: inline-block;
+    display: inline;
+    display: block;
 
 /* pour margin et padding, m50, p50 */
 /* m10-20 */
-
+    margin: 10px;
+    margin: 10px 20px;
+    padding: 10px 20px 30px 40px;
 
 /* fontfamily automatique de fonts connues, ffa, fft, ffv */
-
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-family: Verdana, Geneva, sans-serif;
 
 /* pour !important, on rajoute !, p10! */
+    color: #000000 !important;
 
-
-/* Les webkits, -wmso-trf */
-
+/* Les webkits, -wmso-bg */
+    -webkit-background: #000;
+    -moz-background: #000;
+    -ms-background: #000;
+    -o-background: #000;
+    background: #000;
 
 /* Gradient lg, lg(left, red, blue) */
-
+    background-image: linear-gradient();
 
 
 /* animation, anim- */
+    -webkit-animation: name duration timing-function delay iteration-count direction fill-mode;
+    -o-animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
 
 /*----------------- NON DISPO SUR VS CODE -------------------- */
 
@@ -50,69 +75,24 @@ body {
 /* pour baisser ou monter 10 par 10, shift + alt + fleche */
 /* pour baisser  ctrl + fleche haut / bas */
 
-
-
 /* f+, pour la police et la taille */
 
-
+    font: 1em Arial, sans-serif;
 
 /* bg+, pour un background complet (couleur, url, position, no-repeat)*/
-
+    background: #fff url() 0 0 no-repeat;
 
 
 /* @f+ Pour une police personnalisée */
 
-
 /* bd+, pour border 1 px solid black */
+    border: 1px solid #000;
 
-
-
-/* Pour faire vos custoom raccourcis, aller dans le fichier snippets.json */
+/* Pour faire vos custom raccourcis, aller dans le fichier snippets.json */
 /* C:\Users\*votre nom d'utilisateur*\.atom\packages\emmet\node_modules\emmet\lib */
 /* N'oubliez pas d'aller dans les bonnes sections(css, html ...) */
 /* puis fermez et reouvrez votre éditeur, et voila ! */
 
 /* pour vs code je l'explique dans la vidéo sur vs code. */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
